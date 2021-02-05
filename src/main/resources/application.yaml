@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    generate-ddl: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://langcab_db:5432/postgres
+    username: worduser
+    password: +yu4x4WlN+dXnoeahvipXLjRhwLCaNmhOPGPS7MJQ9LSlA6mmkVn7
+    driverClassName: org.postgresql.Driver
+server:
+  port: 8080
